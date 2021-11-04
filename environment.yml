@@ -1,0 +1,23 @@
+name: <name>
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - isort
+  - mypy
+  - pytest
+  - pylint
+  - pip
+  - pip:
+    - pytest-mock
+    - pytest-env
+    - pytest-cov
+    - coverage
+    - pre-commit
+    - black
+    - pycodestyle
+    - flake
+    - flake8
+    - flake8-bandit
+    - flake8-bugbear
+    - flake8-comprehensions
