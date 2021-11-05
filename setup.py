@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name="<name>",
     version="0.1.0",
-    description="Snake Game with AI",
+    description="TODO",
     license="TODO",
     author="Constantin Gahr",
     packages=setuptools.find_packages(where="src"),
