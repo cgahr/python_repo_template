@@ -1,5 +1,5 @@
 [tool.pytest.ini_options]
-addopts = "--cov=<name> --cov-report=html --cov-report=term"
+addopts = "--cov=src --cov-report=html --cov-report=term"
 testpaths = [
     "tests",
 ]
