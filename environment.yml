@@ -5,19 +5,19 @@ channels:
 dependencies:
   - isort
   - mypy
-  - pytest
-  - pylint
   - pip
+  - pylint
+  - pytest
   - pip:
-    - pytest-mock
-    - pytest-env
-    - pytest-cov
-    - coverage
-    - pre-commit
     - black
-    - pycodestyle
-    - flake
+    - coverage
     - flake8
     - flake8-bandit
     - flake8-bugbear
     - flake8-comprehensions
+    - pre-commit
+    - pycodestyle
+    - pytest-console-scripts
+    - pytest-cov
+    - pytest-env
+    - pytest-mock
