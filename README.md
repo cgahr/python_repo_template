@@ -7,3 +7,6 @@
 - change `<name>` in `environment.yml`
 - change `<name>` in `setup.py`
 - change `<name>` in `pyproject.toml`
+
+Install kernel with 
+`python -m ipykernel install --user --name <name> --display-name <name>`
