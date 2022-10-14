@@ -5,8 +5,11 @@
 ## TODO
 
 - change `<name>` in `environment.yml`
-- change `<name>` in `setup.py`
-- change `<name>` in `pyproject.toml`
+- in `pyproject.toml` change:
+    - `<email>`
+    - `<name>`
+    - `<description>`
+- rename folder `<name>` under `src`
 
 Install kernel with 
 `python -m ipykernel install --user --name <name> --display-name <name>`
